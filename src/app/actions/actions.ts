@@ -49,4 +49,4 @@ export const getCartItems = (): Product[] => {
     // Retrieve and parse cart items from localStorage
     return JSON.parse(localStorage.getItem("cart") || "[]");
 };
-``
+
