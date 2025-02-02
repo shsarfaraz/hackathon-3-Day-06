@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import { Input } from "@/components/ui/input";
 import { Search } from "lucide-react";
+import Link from "next/link";
 
 function Navbar() {
   return (
@@ -14,7 +15,9 @@ function Navbar() {
           <div className="h-1 w-6 bg-black"></div>
         </div>
 
-        <h1 className="text-[32px] font-bold sm:text-[24px]">SHOP.CO</h1>
+        <Link href="/" passHref>
+          <h1 className="text-[32px] font-bold sm:text-[24px] cursor-pointer">SHOP.CO</h1>
+        </Link>
 
         <div className="flex-row gap-6 ml-6 px-4 items-center text-[16px] sm:text-[14px] sm:ml-4 hidden sm:flex whitespace-nowrap">
           <div className="flex items-center">

@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 function Hero() {
   return (
@@ -32,7 +33,16 @@ function Hero() {
         </div>
 
         <div className="mt-4 sm:mt-8 flex items-center justify-center sm:justify-start w-full order-2 sm:order-1">
-          <button className="bg-black text-white p-3 px-8 sm:px-16 rounded-full">Shop Now</button>
+       
+       
+        <Link href="/practice">
+            
+            <button className="bg-black text-white p-3 px-8 sm:px-16 rounded-full">
+              Shop Now
+            </button>
+          </Link>
+
+          
         </div>
 
         <Image
