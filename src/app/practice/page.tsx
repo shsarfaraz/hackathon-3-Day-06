@@ -11,6 +11,8 @@ import Navbar from "@/components/Navbar";  // Import the Navbar here
 import Link from "next/link";
 import Header from "@/components/Header";  // Import Header here
 
+//Little Change
+
 export default function Home() {
 
   const [product, setProduct] = useState<Product[]>([]);
